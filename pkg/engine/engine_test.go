@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/chartutil"
 )
 
 func TestSortTemplates(t *testing.T) {

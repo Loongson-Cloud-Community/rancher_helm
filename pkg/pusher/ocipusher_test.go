@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/registry"
+	"k8s.io/helm/pkg/registry"
 )
 
 func TestNewOCIPusher(t *testing.T) {

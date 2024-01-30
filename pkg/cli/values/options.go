@@ -25,8 +25,8 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/strvals"
+	"k8s.io/helm/pkg/getter"
+	"k8s.io/helm/pkg/strvals"
 )
 
 // Options captures the different ways to specify values

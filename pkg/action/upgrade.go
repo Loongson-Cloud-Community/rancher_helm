@@ -28,14 +28,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/cli-runtime/pkg/resource"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/kube"
-	"helm.sh/helm/v3/pkg/postrender"
-	"helm.sh/helm/v3/pkg/registry"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/releaseutil"
-	"helm.sh/helm/v3/pkg/storage/driver"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/chartutil"
+	"k8s.io/helm/pkg/kube"
+	"k8s.io/helm/pkg/postrender"
+	"k8s.io/helm/pkg/registry"
+	"k8s.io/helm/pkg/release"
+	"k8s.io/helm/pkg/releaseutil"
+	"k8s.io/helm/pkg/storage/driver"
 )
 
 // Upgrade is the action for upgrading releases.

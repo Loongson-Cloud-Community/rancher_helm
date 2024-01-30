@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	kubefake "helm.sh/helm/v3/pkg/kube/fake"
-	"helm.sh/helm/v3/pkg/release"
+	kubefake "k8s.io/helm/pkg/kube/fake"
+	"k8s.io/helm/pkg/release"
 )
 
 func uninstallAction(t *testing.T) *Uninstall {

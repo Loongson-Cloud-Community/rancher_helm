@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
+	"k8s.io/helm/cmd/helm/require"
+	"k8s.io/helm/pkg/action"
 )
 
 var getManifestHelp = `

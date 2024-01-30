@@ -30,10 +30,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/search"
-	"helm.sh/helm/v3/pkg/cli/output"
-	"helm.sh/helm/v3/pkg/helmpath"
-	"helm.sh/helm/v3/pkg/repo"
+	"k8s.io/helm/cmd/helm/search"
+	"k8s.io/helm/pkg/cli/output"
+	"k8s.io/helm/pkg/helmpath"
+	"k8s.io/helm/pkg/repo"
 )
 
 const searchRepoDesc = `

@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package installer // import "helm.sh/helm/v3/pkg/plugin/installer"
+package installer // import "k8s.io/helm/pkg/plugin/installer"
 
 import (
 	"fmt"
@@ -23,8 +23,8 @@ import (
 
 	"github.com/Masterminds/vcs"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/helmpath"
+	"k8s.io/helm/internal/test/ensure"
+	"k8s.io/helm/pkg/helmpath"
 )
 
 var _ Installer = new(VCSInstaller)

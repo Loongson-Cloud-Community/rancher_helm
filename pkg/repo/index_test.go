@@ -26,10 +26,10 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/cli"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/helmpath"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/cli"
+	"k8s.io/helm/pkg/getter"
+	"k8s.io/helm/pkg/helmpath"
 )
 
 const (

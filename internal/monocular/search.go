@@ -24,8 +24,8 @@ import (
 	"path"
 	"time"
 
-	"helm.sh/helm/v3/internal/version"
-	"helm.sh/helm/v3/pkg/chart"
+	"k8s.io/helm/internal/version"
+	"k8s.io/helm/pkg/chart"
 )
 
 // SearchPath is the url path to the search API in monocular.

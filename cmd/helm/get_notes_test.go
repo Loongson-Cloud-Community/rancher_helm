@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"helm.sh/helm/v3/pkg/release"
+	"k8s.io/helm/pkg/release"
 )
 
 func TestGetNotesCmd(t *testing.T) {

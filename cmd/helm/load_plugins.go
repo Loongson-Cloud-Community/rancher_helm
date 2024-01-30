@@ -31,7 +31,7 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/pkg/plugin"
+	"k8s.io/helm/pkg/plugin"
 )
 
 const (

@@ -22,11 +22,11 @@ import (
 	"reflect"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/repo/repotest"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/chart/loader"
+	"k8s.io/helm/pkg/chartutil"
+	"k8s.io/helm/pkg/getter"
+	"k8s.io/helm/pkg/repo/repotest"
 )
 
 func TestVersionEquals(t *testing.T) {

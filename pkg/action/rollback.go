@@ -24,9 +24,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/release"
-	helmtime "helm.sh/helm/v3/pkg/time"
+	"k8s.io/helm/pkg/chartutil"
+	"k8s.io/helm/pkg/release"
+	helmtime "k8s.io/helm/pkg/time"
 )
 
 // Rollback is the action for rolling back to a given release.

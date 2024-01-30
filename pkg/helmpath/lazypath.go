@@ -17,7 +17,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"helm.sh/helm/v3/pkg/helmpath/xdg"
+	"k8s.io/helm/pkg/helmpath/xdg"
 )
 
 const (

@@ -14,12 +14,12 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package releaseutil // import "helm.sh/helm/v3/pkg/releaseutil"
+package releaseutil // import "k8s.io/helm/pkg/releaseutil"
 
 import (
 	"sort"
 
-	rspb "helm.sh/helm/v3/pkg/release"
+	rspb "k8s.io/helm/pkg/release"
 )
 
 type list []*rspb.Release

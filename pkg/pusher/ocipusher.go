@@ -26,9 +26,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/tlsutil"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/registry"
+	"k8s.io/helm/internal/tlsutil"
+	"k8s.io/helm/pkg/chart/loader"
+	"k8s.io/helm/pkg/registry"
 )
 
 // OCIPusher is the default OCI backend handler

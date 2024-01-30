@@ -19,8 +19,8 @@ package pusher
 import (
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/pkg/cli"
-	"helm.sh/helm/v3/pkg/registry"
+	"k8s.io/helm/pkg/cli"
+	"k8s.io/helm/pkg/registry"
 )
 
 // options are generic parameters to be provided to the pusher during instantiation.

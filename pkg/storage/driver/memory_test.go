@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	rspb "helm.sh/helm/v3/pkg/release"
+	rspb "k8s.io/helm/pkg/release"
 )
 
 func TestMemoryName(t *testing.T) {

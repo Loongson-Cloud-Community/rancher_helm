@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/labels"
 
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/releaseutil"
+	"k8s.io/helm/pkg/release"
+	"k8s.io/helm/pkg/releaseutil"
 )
 
 // ListStates represents zero or more status codes that a list item may have set

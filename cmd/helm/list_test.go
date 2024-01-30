@@ -19,9 +19,9 @@ package main
 import (
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/time"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/release"
+	"k8s.io/helm/pkg/time"
 )
 
 func TestListCmd(t *testing.T) {

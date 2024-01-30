@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/lint/support"
+	"k8s.io/helm/pkg/chartutil"
+	"k8s.io/helm/pkg/lint/support"
 )
 
 var values map[string]interface{}

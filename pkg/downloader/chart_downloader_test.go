@@ -20,11 +20,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/cli"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/repo"
-	"helm.sh/helm/v3/pkg/repo/repotest"
+	"k8s.io/helm/internal/test/ensure"
+	"k8s.io/helm/pkg/cli"
+	"k8s.io/helm/pkg/getter"
+	"k8s.io/helm/pkg/repo"
+	"k8s.io/helm/pkg/repo/repotest"
 )
 
 const (

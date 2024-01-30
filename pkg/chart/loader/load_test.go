@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"helm.sh/helm/v3/pkg/chart"
+	"k8s.io/helm/pkg/chart"
 )
 
 func TestLoadDir(t *testing.T) {

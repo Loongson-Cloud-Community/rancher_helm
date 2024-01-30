@@ -23,11 +23,11 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/release"
+	"k8s.io/helm/internal/test/ensure"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/chart/loader"
+	"k8s.io/helm/pkg/chartutil"
+	"k8s.io/helm/pkg/release"
 )
 
 func TestUpgradeCmd(t *testing.T) {

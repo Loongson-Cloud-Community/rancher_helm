@@ -29,14 +29,14 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/cli/output"
-	"helm.sh/helm/v3/pkg/cli/values"
-	"helm.sh/helm/v3/pkg/downloader"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/storage/driver"
+	"k8s.io/helm/cmd/helm/require"
+	"k8s.io/helm/pkg/action"
+	"k8s.io/helm/pkg/chart/loader"
+	"k8s.io/helm/pkg/cli/output"
+	"k8s.io/helm/pkg/cli/values"
+	"k8s.io/helm/pkg/downloader"
+	"k8s.io/helm/pkg/getter"
+	"k8s.io/helm/pkg/storage/driver"
 )
 
 const upgradeDesc = `

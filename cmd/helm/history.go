@@ -25,13 +25,13 @@ import (
 	"github.com/gosuri/uitable"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/cli/output"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/releaseutil"
-	helmtime "helm.sh/helm/v3/pkg/time"
+	"k8s.io/helm/cmd/helm/require"
+	"k8s.io/helm/pkg/action"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/cli/output"
+	"k8s.io/helm/pkg/release"
+	"k8s.io/helm/pkg/releaseutil"
+	helmtime "k8s.io/helm/pkg/time"
 )
 
 var historyHelp = `

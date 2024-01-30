@@ -20,10 +20,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/lint/support"
+	"k8s.io/helm/internal/test/ensure"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/chartutil"
+	"k8s.io/helm/pkg/lint/support"
 )
 
 func chartWithBadDependencies() chart.Chart {

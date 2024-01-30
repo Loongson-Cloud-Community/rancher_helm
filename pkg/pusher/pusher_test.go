@@ -18,8 +18,8 @@ package pusher
 import (
 	"testing"
 
-	"helm.sh/helm/v3/pkg/cli"
-	"helm.sh/helm/v3/pkg/registry"
+	"k8s.io/helm/pkg/cli"
+	"k8s.io/helm/pkg/registry"
 )
 
 func TestProvider(t *testing.T) {

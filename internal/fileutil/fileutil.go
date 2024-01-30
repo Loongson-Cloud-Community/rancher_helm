@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"helm.sh/helm/v3/internal/third_party/dep/fs"
+	"k8s.io/helm/internal/third_party/dep/fs"
 )
 
 // AtomicWriteFile atomically (as atomic as os.Rename allows) writes a file to a

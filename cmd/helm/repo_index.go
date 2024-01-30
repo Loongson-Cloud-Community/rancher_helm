@@ -24,8 +24,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/repo"
+	"k8s.io/helm/cmd/helm/require"
+	"k8s.io/helm/pkg/repo"
 )
 
 const repoIndexDesc = `

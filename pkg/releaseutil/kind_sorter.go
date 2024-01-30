@@ -19,7 +19,7 @@ package releaseutil
 import (
 	"sort"
 
-	"helm.sh/helm/v3/pkg/release"
+	"k8s.io/helm/pkg/release"
 )
 
 // KindSortOrder is an ordering of Kinds.

@@ -14,13 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package registry // import "helm.sh/helm/v3/pkg/registry"
+package registry // import "k8s.io/helm/pkg/registry"
 
 import (
 	"reflect"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
+	"k8s.io/helm/pkg/chart"
 )
 
 func TestGenerateOCIChartAnnotations(t *testing.T) {

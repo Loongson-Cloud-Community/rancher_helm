@@ -22,14 +22,14 @@ import (
 
 	fakeclientset "k8s.io/client-go/kubernetes/fake"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
-	kubefake "helm.sh/helm/v3/pkg/kube/fake"
-	"helm.sh/helm/v3/pkg/registry"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/storage"
-	"helm.sh/helm/v3/pkg/storage/driver"
-	"helm.sh/helm/v3/pkg/time"
+	"k8s.io/helm/pkg/chart"
+	"k8s.io/helm/pkg/chartutil"
+	kubefake "k8s.io/helm/pkg/kube/fake"
+	"k8s.io/helm/pkg/registry"
+	"k8s.io/helm/pkg/release"
+	"k8s.io/helm/pkg/storage"
+	"k8s.io/helm/pkg/storage/driver"
+	"k8s.io/helm/pkg/time"
 )
 
 var verbose = flag.Bool("test.log", false, "enable test logging")

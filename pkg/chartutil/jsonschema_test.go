@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
+	"k8s.io/helm/pkg/chart"
 )
 
 func TestValidateAgainstSingleSchema(t *testing.T) {
